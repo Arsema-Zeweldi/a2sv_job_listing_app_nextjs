@@ -11,7 +11,7 @@
     "description": "We are looking for a skilled Senior Frontend Developer to join our dynamic team. You will be responsible for building and maintaining high-quality web applications.",
     "jobType": "Full-time",
     "categories": ["Engineering", "IT"],
-    "logoUrl": "../public/global.svg",
+    "logoUrl": "/logo1.jpeg",
     "responsibilities": [
       "Develop and maintain web applications using React.js and other frontend technologies.",
       "Collaborate with cross-functional teams to define, design, and ship new features.",
@@ -57,7 +57,7 @@
     "description": "Join our team as a Data Scientist and help us turn data into actionable insights. You will work with large datasets to develop predictive models and analyze trends.",
     "jobType": "Full-time",
     "categories": ["Data Science", "Analytics"],
-    "logoUrl": "../public/file.svg",
+    "logoUrl": "/logo2.jpeg",
     "responsibilities": [
       "Analyze large datasets to extract meaningful insights.",
       "Develop and implement machine learning models.",
@@ -103,7 +103,7 @@
     "description": "We are seeking a talented Marketing Manager to lead our marketing efforts. You will be responsible for developing and executing marketing strategies to drive brand awareness and customer engagement.",
     "jobType": "Full-time",
     "categories": ["Marketing", "Management"],
-    "logoUrl": "../public/file.svg",
+    "logoUrl": "/logo3.jpeg",
     "responsibilities": [
       "Develop and implement marketing strategies and campaigns.",
       "Manage social media channels and online presence.",
@@ -155,7 +155,7 @@
     "description": "We are looking for a creative UX/UI Designer to join our design team. You will be responsible for creating user-centered designs that enhance the user experience across our digital products.",
     "jobType": "Full-time",
     "categories": ["Design", "User Experience"],
-    "logoUrl": "../public/file.svg",
+    "logoUrl": "/logo4.png",
     "responsibilities": [
       "Design user interfaces for web and mobile applications.",
       "Conduct user research and usability testing.",
@@ -203,7 +203,7 @@
     "description": "We are seeking a skilled DevOps Engineer to join our infrastructure team. You will be responsible for automating and optimizing our development and deployment processes.",
     "jobType": "Full-time",
     "categories": ["DevOps", "IT"],
-    "logoUrl": "../public/file.svg",
+    "logoUrl": "/logo5.jpeg",
     "responsibilities": [
       "Design, implement, and manage CI/CD pipelines.",
       "Automate infrastructure provisioning and configuration management.",

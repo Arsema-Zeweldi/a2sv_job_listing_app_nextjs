@@ -6,7 +6,7 @@ import Image from "next/image";
 const JobCard = (job: JobListingInterface) => {
   return (
     <div className="border-gray-300 border rounded-4xl mr-100 ml-30 mt-5 mb-5 p-5 hover:bg-gray-300">
-      <div className="p-2 flex gap-">
+      <div className="p-2 flex gap-6">
         <div className="w-20 h-20 overflow-hidden rounded-full">
           <Image
             src={job.logoUrl}

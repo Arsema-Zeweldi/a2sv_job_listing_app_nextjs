@@ -1,6 +1,5 @@
 import Image from "next/image";
 import JobCard from "./components/JobCard";
-import { title } from "process";
 import JobListingInterface from "./JobListingInterface";
 import Header from "./components/Header";
 import "../app/data/data.json";
