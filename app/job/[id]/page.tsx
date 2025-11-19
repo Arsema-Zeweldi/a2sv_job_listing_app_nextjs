@@ -1,10 +1,12 @@
+"use client";
 import React from "react";
-import JobListingInterface from "../JobListingInterface";
+import JobListingInterface from "../../JobListingInterface";
 import { LuCirclePlus, LuCalendarCheck, LuCalendar1 } from "react-icons/lu";
 import { GoDotFill } from "react-icons/go";
 import { MdOutlineLocalFireDepartment } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
 import { FaRegCircleCheck } from "react-icons/fa6";
+import { useParams } from "next/navigation";
 
 type IconBoxProps = {
   children: React.ReactNode;
@@ -19,7 +21,16 @@ const IconBox = ({ children, size = "md", className = "" }: IconBoxProps) => {
   return <div className={`${base} ${sizing} ${className}`}>{children}</div>;
 };
 
-const Job = (job: JobListingInterface) => {
+const Job = () => {
+  const params = useParams();
+  const rawId = params.id;
+  const id = Array.isArray(rawId) ? rawId[0] : rawId;
+  if (!id) {
+    return <div className="p-10">Job not found.</div>;
+  }
+  const job = require("../../data/data.json").find(
+    (j: JobListingInterface) => String(j.id) === String(id)
+  ) as JobListingInterface;
   return (
     <div className="flex flex-row flex-1 p-10 gap-10">
       <div>
@@ -110,7 +121,7 @@ const Job = (job: JobListingInterface) => {
             </IconBox>
             <div>
               <p className="text-[#515B6F] text-[14px] mt-[-5]">Location</p>
-              <p className="font-semibold text-[14px]">{job.address.city}</p>
+              <p className="font-semibold text-[14px]">{job.address?.city}</p>
             </div>
           </div>
           <div className="flex gap-4 mb-4">
