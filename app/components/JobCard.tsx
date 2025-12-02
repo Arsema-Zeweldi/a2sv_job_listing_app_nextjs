@@ -7,34 +7,34 @@ const JobCard = (job: JobListingInterface) => {
   return (
     <div className="border-gray-300 border rounded-4xl mr-100 ml-30 mt-5 mb-5 p-5 hover:bg-gray-300">
       <div className="p-2 flex gap-6">
-        <div className="w-20 h-20 overflow-hidden rounded-full">
+        <div>
           <Image
-            src={job.logoUrl}
+            src={job.image}
             alt={`${job.title} logo`}
-            width={66}
-            height={59}
+            width={100}
+            height={70}
             className="object-cover"
           />
         </div>
         <div className="">
-          <Link href={`/job/${job.id}`} className="text-xl font-semibold mb-1">
+          <Link
+            href={`/job/${job.id}`}
+            className="text-[20px] font-semibold text-[#25324B] mb-1"
+          >
             {job.title}
           </Link>
-          <p className="text-gray-500 mb-2">
+          <p className="text-[#7C8493] mb-2 text-[16px]">
             {job.company} <span className="text-4xl relative bottom-1">.</span>{" "}
-            {job.address.street}, {job.address.city}, {job.address.state}
+            {job.about?.location}
           </p>
-          <p>{job.description}</p>
+          <p className="text-[#25324B] text-[16px">{job.description}</p>
           <div className="flex align-center mt-2">
             <div className="text-[#56CDAD] bg-green-100 p-2 rounded-3xl text-sm font-semibold">
-              {job.jobType}
+              remote
             </div>
-            <span className="mr-1 ml-1 font-light text-gray-300 text-4xl">
-              |
-            </span>
-            <hr className="text-black" />
+            <div className="h-9 w-0.5 bg-gray-300 mx-3"></div>
             <div className="flex gap-2 align-center justify-center  text-sm">
-              {job.categories.map((category, idx) => {
+              {job.about?.categories.map((category, idx) => {
                 const isEven = idx % 2 === 0;
                 const colorClasses = isEven
                   ? "text-amber-400"

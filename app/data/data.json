@@ -1,240 +1,181 @@
 [
   {
     "id": 1,
-    "title": "Senior Frontend Developer",
-    "company": "Tech Solutions Inc.",
-    "address": {
-      "street": "123 Tech Street",
-      "city": "Silicon Valley",
-      "state": "CA"
-    },
-    "description": "We are looking for a skilled Senior Frontend Developer to join our dynamic team. You will be responsible for building and maintaining high-quality web applications.",
-    "jobType": "Full-time",
-    "categories": ["Engineering", "IT"],
-    "logoUrl": "/logo1.jpeg",
+    "title": "Social media manager",
+    "description": "As a Social Media Assistant, you will work closely with the social media manager or marketing team to execute social media strategies and campaigns. You will be responsible for assisting in the creation and scheduling of engaging content, monitoring social media channels, and interacting with followers. Your primary goal will be to enhance brand visibility, foster positive relationships with the audience, and drive engagement and conversions.",
     "responsibilities": [
-      "Develop and maintain web applications using React.js and other frontend technologies.",
-      "Collaborate with cross-functional teams to define, design, and ship new features.",
-      "Optimize applications for maximum speed and scalability.",
-      "Ensure the technical feasibility of UI/UX designs."
+      "Community engagement to ensure that is supported and actively represented online",
+      "Focus on social media content development and publication",
+      "Marketing and strategy support",
+      "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+      "Engage with online communities"
     ],
-    "detail": [
-      {
-        "title": "Bachelor's degree in Computer Science or related field",
-        "description": "Minimum 5 years of experience in frontend development."
-      },
-      {
-        "title": "Proficiency in JavaScript, HTML, CSS, and modern frontend frameworks (e.g., React.js)",
-        "description": "Experience with version control systems like Git."
-      },
-      {
-        "title": "Strong problem-solving skills and attention to detail",
-        "description": "Excellent communication and teamwork abilities."
-      },
-      {
-        "title": "Experience with responsive and adaptive design",
-        "description": "Familiarity with RESTful APIs and backend integration."
-      }
-    ],
-    "about": {
-      "postedOn": "August 1, 2023",
-      "deadline": "August 31, 2023",
-      "startDate": "September 15, 2023",
-      "endDate": "September 15, 2024"
+    "ideal_candidate": {
+      "age": "18-24",
+      "gender": "Female",
+      "traits": [
+        "Passionate & Reliable: Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments.",
+        "Adaptable, Team Player & Strong Communication Skills: Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback.",
+        "Respectful: Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."
+      ]
     },
-    "eventLocation": "The online event will be hosted via Zoom.",
-    "skills": ["JavaScript", "React.js", "CSS", "HTML", "Git"]
+    "when_where": "The onboarding event for this event will take place on Jan 18th, 2023 in AAU Auditorium.",
+    "about": {
+      "posted_on": "Jul 1, 2023",
+      "deadline": "Jul 31, 2023",
+      "location": "Addis Ababa, Ethiopia",
+      "start_date": "Aug 02, 2023",
+      "end_date": "Sep 02, 2023",
+      "categories": ["Marketing", "Design"],
+      "required_skills": ["Social Media Marketing", "English", "Copywriting"]
+    },
+    "company": "ABC Media",
+    "image": "/job1.png"
   },
   {
     "id": 2,
-    "title": "Data Scientist",
-    "company": "Data Insights LLC",
-    "address": {
-      "street": "456 Data Drive",
-      "city": "New York",
-      "state": "NY"
-    },
-    "description": "Join our team as a Data Scientist and help us turn data into actionable insights. You will work with large datasets to develop predictive models and analyze trends.",
-    "jobType": "Full-time",
-    "categories": ["Data Science", "Analytics"],
-    "logoUrl": "/logo2.jpeg",
+    "title": "Web developer",
+    "description": "As a Web Developer, you will be responsible for designing, coding, and modifying websites, from layout to function according to a client's specifications. You will create visually appealing sites that feature user-friendly design and clear navigation.",
     "responsibilities": [
-      "Analyze large datasets to extract meaningful insights.",
-      "Develop and implement machine learning models.",
-      "Collaborate with cross-functional teams to understand business needs.",
-      "Communicate findings to stakeholders through reports and presentations."
+      "Write well designed, testable, efficient code by using best software development practices",
+      "Create website layout/user interface by using standard HTML/CSS practices",
+      "Integrate data from various back-end services and databases",
+      "Gather and refine specifications and requirements based on technical needs",
+      "Create and maintain software documentation"
     ],
-    "detail": [
-      {
-        "title": "Master's degree in Data Science, Statistics, or related field",
-        "description": "Minimum 3 years of experience in data science or analytics."
-      },
-      {
-        "title": "Proficiency in Python, R, and SQL",
-        "description": "Experience with machine learning libraries (e.g., scikit-learn, TensorFlow)."
-      },
-      {
-        "title": "Strong analytical and problem-solving skills",
-        "description": "Excellent communication and presentation abilities."
-      },
-      {
-        "title": "Experience with data visualization tools (e.g., Tableau, Power BI)",
-        "description": "Familiarity with big data technologies (e.g., Hadoop, Spark)."
-      }
-    ],
-    "about": {
-      "postedOn": "July 15, 2023",
-      "deadline": "August 15, 2023",
-      "startDate": "September 1, 2023",
-      "endDate": "September 1, 2024"
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+      "traits": [
+        "Strong organizational skills to juggle multiple tasks within the constraints of timelines and budgets",
+        "Ability to work and thrive in a fast-paced environment, learn rapidly, and master diverse web technologies and techniques",
+        "Team player with a positive attitude and good interpersonal skills"
+      ]
     },
-    "eventLocation": "The online event will be hosted via Microsoft Teams.",
-    "skills": ["Python", "R", "SQL", "Machine Learning", "Data Visualization"]
+    "when_where": "The onboarding event for this event will take place on Feb 10th, 2023 in BBIT Building, Room 202.",
+    "about": {
+      "posted_on": "Jan 15, 2023",
+      "deadline": "Feb 5, 2023",
+      "location": "Addis Ababa, Ethiopia",
+      "start_date": "Feb 15, 2023",
+      "end_date": "Aug 15, 2023",
+      "categories": ["IT", "Development"],
+      "required_skills": ["HTML", "CSS", "JavaScript", "PHP"]
+    },
+    "company": "Tech Innovators",
+    "image": "/job2.jpg"
   },
   {
     "id": 3,
-    "title": "Marketing Manager",
-    "company": "Creative Marketing Co.",
-    "address": {
-      "street": "789 Market Lane",
-      "city": "Chicago",
-      "state": "IL"
-    },
-    "description": "We are seeking a talented Marketing Manager to lead our marketing efforts. You will be responsible for developing and executing marketing strategies to drive brand awareness and customer engagement.",
-    "jobType": "Full-time",
-    "categories": ["Marketing", "Management"],
-    "logoUrl": "/logo3.jpeg",
+    "title": "Graphic designer",
+    "description": "As a Graphic Designer, you will create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. You will develop the overall layout and production design for various applications such as advertisements, brochures, magazines, and corporate reports.",
     "responsibilities": [
-      "Develop and implement marketing strategies and campaigns.",
-      "Manage social media channels and online presence.",
-      "Conduct market research to identify trends and opportunities.",
-      "Collaborate with sales and product teams to align marketing efforts."
+      "Develop graphics for product illustrations, logos, and websites",
+      "Select colors, images, text style, and layout",
+      "Present the design to clients or the art director",
+      "Incorporate changes recommended by the clients into the final design",
+      "Review designs for errors before printing or publishing them"
     ],
-    "detail": [
-      {
-        "title": "Bachelor's degree in Marketing, Business, or related field",
-        "description": "Minimum 4 years of experience in marketing or related roles."
-      },
-      {
-        "title": "Proficiency in digital marketing tools and platforms",
-        "description": "Experience with SEO, SEM, and content marketing."
-      },
-      {
-        "title": "Strong leadership and project management skills",
-        "description": "Excellent communication and interpersonal abilities."
-      },
-      {
-        "title": "Creative thinking and problem-solving skills",
-        "description": "Familiarity with analytics tools (e.g., Google Analytics)."
-      }
-    ],
-    "about": {
-      "postedOn": "August 5, 2023",
-      "deadline": "September 5, 2023",
-      "startDate": "October 1, 2023",
-      "endDate": "October 1, 2024"
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+      "traits": [
+        "A keen eye for aesthetics and details",
+        "Excellent communication skills",
+        "Ability to work methodically and meet deadlines",
+        "Passionate about creating stunning visuals and innovative designs"
+      ]
     },
-    "eventLocation": "The online event will be hosted via Google Meet.",
-    "skills": [
-      "Digital Marketing",
-      "SEO",
-      "Content Creation",
-      "Project Management",
-      "Analytics"
-    ]
+    "when_where": "The onboarding event for this event will take place on Mar 5th, 2023 in Design Studio, 3rd Floor.",
+    "about": {
+      "posted_on": "Feb 1, 2023",
+      "deadline": "Feb 28, 2023",
+      "location": "Cape Town, South Africa",
+      "start_date": "Mar 10, 2023",
+      "end_date": "Sep 10, 2023",
+      "categories": ["Design", "Art"],
+      "required_skills": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Creativity",
+        "Attention to detail"
+      ]
+    },
+    "company": "Creative Designs Co.",
+    "image": "/job3.jpg"
   },
   {
     "id": 4,
-    "title": "UX/UI Designer",
-    "company": "Design Studio",
-    "address": {
-      "street": "321 Creative Blvd",
-      "city": "Los Angeles",
-      "state": "CA"
-    },
-    "description": "We are looking for a creative UX/UI Designer to join our design team. You will be responsible for creating user-centered designs that enhance the user experience across our digital products.",
-    "jobType": "Full-time",
-    "categories": ["Design", "User Experience"],
-    "logoUrl": "/logo4.png",
+    "title": "Data analyst",
+    "description": "As a Data Analyst, you will be responsible for analyzing data sets to identify trends, patterns, and insights that can help inform business decisions. You will work closely with different departments to gather and interpret data, create reports, and provide recommendations based on your findings.",
     "responsibilities": [
-      "Design user interfaces for web and mobile applications.",
-      "Conduct user research and usability testing.",
-      "Collaborate with developers and product managers to implement designs.",
-      "Create wireframes, prototypes, and visual designs."
+      "Interpret data, analyze results using statistical techniques and provide ongoing reports",
+      "Develop and implement databases, data collection systems, data analytics, and other strategies",
+      "Acquire data from primary or secondary data sources and maintain databases/data systems",
+      "Identify, analyze, and interpret trends or patterns in complex data sets",
+      "Filter and clean data by reviewing computer reports, printouts, and performance indicators"
     ],
-    "detail": [
-      {
-        "title": "Bachelor's degree in Design, Human-Computer Interaction, or related field",
-        "description": "Minimum 3 years of experience in UX/UI design."
-      },
-      {
-        "title": "Proficiency in design tools (e.g., Sketch, Figma, Adobe XD)",
-        "description": "Experience with user research methodologies."
-      },
-      {
-        "title": "Strong portfolio showcasing UX/UI design skills",
-        "description": "Excellent communication and collaboration abilities."
-      },
-      {
-        "title": "Knowledge of front-end development (HTML, CSS, JavaScript) is a plus",
-        "description": "Familiarity with accessibility standards and best practices."
-      }
-    ],
-    "about": {
-      "postedOn": "July 20, 2023",
-      "deadline": "August 20, 2023",
-      "startDate": "September 10, 2023",
-      "endDate": "September 10, 2024"
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+      "traits": [
+        "Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information",
+        "Technical expertise regarding data models, database design development, data mining, and segmentation techniques",
+        "Excellent written and verbal communication skills",
+        "Ability to work independently and as part of a team"
+      ]
     },
-    "eventLocation": "The online event will be hosted via Webex.",
-    "skills": [
-      "UX Design",
-      "UI Design",
-      "Prototyping",
-      "User Research",
-      "Design Tools"
-    ]
+    "when_where": "The onboarding event for this event will take place on Apr 12th, 2023 in Conference Room B.",
+    "about": {
+      "posted_on": "Mar 10, 2023",
+      "deadline": "Apr 1, 2023",
+      "location": "Lagos, Nigeria",
+      "start_date": "Apr 15, 2023",
+      "end_date": "Oct 15, 2023",
+      "categories": ["Data Science", "Analytics"],
+      "required_skills": ["SQL", "Python", "Excel", "Statistical Analysis"]
+    },
+    "company": "Data Insights Inc.",
+    "image": "/job4.jpg"
   },
   {
     "id": 5,
-    "title": "DevOps Engineer",
-    "company": "CloudTech Solutions",
-    "address": { "street": "654 Cloud Ave", "city": "Seattle", "state": "WA" },
-    "description": "We are seeking a skilled DevOps Engineer to join our infrastructure team. You will be responsible for automating and optimizing our development and deployment processes.",
-    "jobType": "Full-time",
-    "categories": ["DevOps", "IT"],
-    "logoUrl": "/logo5.jpeg",
+    "title": "Customer support specialist",
+    "description": "As a Customer Support Specialist, you will provide product/services information and resolve any emerging problems that our customers might face with accuracy and efficiency. You will be patient, empathetic, and passionately communicative.",
     "responsibilities": [
-      "Design, implement, and manage CI/CD pipelines.",
-      "Automate infrastructure provisioning and configuration management.",
-      "Monitor system performance and troubleshoot issues.",
-      "Collaborate with development teams to ensure smooth deployments."
+      "Manage large amounts of incoming calls and emails",
+      "Identify and assess customers’ needs to achieve satisfaction",
+      "Build sustainable relationships and trust with customer accounts through open and interactive communication",
+      "Provide accurate, valid, and complete information by using the right methods/tools",
+      "Handle customer complaints, provide appropriate solutions and alternatives within the time limits; follow up to ensure resolution"
     ],
-    "detail": [
-      {
-        "title": "Bachelor's degree in Computer Science or related field",
-        "description": "Minimum 4 years of experience in DevOps or related roles."
-      },
-      {
-        "title": "Proficiency in cloud platforms (e.g., AWS, Azure, GCP)",
-        "description": "Experience with containerization and orchestration tools (e.g., Docker, Kubernetes)."
-      },
-      {
-        "title": "Strong scripting skills (e.g., Python, Bash)",
-        "description": "Excellent problem-solving and communication abilities."
-      },
-      {
-        "title": "Experience with infrastructure as code (e.g., Terraform, Ansible)",
-        "description": "Familiarity with monitoring and logging tools."
-      }
-    ],
-    "about": {
-      "postedOn": "August 10, 2023",
-      "deadline": "September 10, 2023",
-      "startDate": "October 15, 2023",
-      "endDate": "October 15, 2024"
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+
+      "traits": [
+        "Strong phone contact handling skills and active listening",
+        "Customer orientation and ability to adapt/respond to different types of characters",
+        "Excellent communication and presentation skills",
+        "Ability to multi-task, prioritize, and manage time effectively"
+      ]
     },
-    "eventLocation": "The online event will be hosted via Zoom.",
-    "skills": ["CI/CD", "Cloud Platforms", "Docker", "Kubernetes", "Scripting"]
+    "when_where": "The onboarding event for this event will take place on May 20th, 2023 in Customer Support Center, Ground Floor.",
+    "about": {
+      "posted_on": "Apr 15, 2023",
+      "deadline": "May 10, 2023",
+      "location": "Accra, Ghana",
+      "start_date": "May 25, 2023",
+      "end_date": "Nov 25, 2023",
+      "categories": ["Customer Service", "Support"],
+      "required_skills": [
+        "Communication Skills",
+        "Problem Solving",
+        "Patience",
+        "Attention to Detail"
+      ]
+    },
+    "company": "Customer Care Ltd.",
+    "image": "/job5.png"
   }
 ]

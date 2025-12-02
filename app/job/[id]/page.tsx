@@ -63,15 +63,14 @@ const Job = () => {
             Ideal Candidate we want
           </h1>
           <ul>
-            {job.detail?.map((detail, idx) => (
+            {job.ideal_candidate?.traits.map((detail, idx) => (
               <li key={idx} className="flex gap-3 items-start text-md">
                 <IconBox size="sm" className="border-0 bg-transparent">
                   <GoDotFill className="text-xs" aria-hidden />
                 </IconBox>
                 <div className="inline-flex">
                   <p className="mt-1.5 inline">
-                    <span className="font-bold">{detail.title}</span>
-                    <span className="font-bold">:</span> {detail.description}
+                    <span className="font-bold">:</span> {detail}
                   </p>
                   <p className="inline  mt-1.5"></p>
                 </div>
@@ -87,7 +86,7 @@ const Job = () => {
             <IconBox size="sm">
               <GrLocation className="text-[#26A4FF] text-base" aria-hidden />
             </IconBox>
-            <p className="text-md">{job.eventLocation}</p>
+            <p className="text-md">{job.when_where}</p>
           </div>
         </div>
       </div>
@@ -100,7 +99,9 @@ const Job = () => {
             </IconBox>
             <div>
               <p className="text-[#515B6F] text-[14px] mt-[-5]">Posted On</p>
-              <p className="font-semibold text-[14px]">{job.about?.postedOn}</p>
+              <p className="font-semibold text-[14px]">
+                {job.about?.posted_on}
+              </p>
             </div>
           </div>
           <div className="flex gap-4 mb-4">
@@ -131,7 +132,7 @@ const Job = () => {
             <div>
               <p className="text-[#515B6F] text-[14px] mt-[-5]">Start Date</p>
               <p className="font-semibold text-[14px]">
-                {job.about?.startDate}
+                {job.about?.start_date}
               </p>
             </div>
           </div>
@@ -144,7 +145,7 @@ const Job = () => {
             </IconBox>
             <div>
               <p className="text-[#515B6F] text-[14px] mt-[-5]">End Date</p>
-              <p className="font-semibold text-[14px]">{job.about?.endDate}</p>
+              <p className="font-semibold text-[14px]">{job.about?.end_date}</p>
             </div>
           </div>
         </div>
@@ -154,7 +155,7 @@ const Job = () => {
             Categories
           </h1>
           <div className="flex gap-2">
-            {job.categories.map((category, idx) => {
+            {job.about?.categories.map((category, idx) => {
               const isEven = idx % 2 === 0;
               const colorClasses = isEven
                 ? "text-amber-400 bg-amber-100"
@@ -177,7 +178,7 @@ const Job = () => {
             Required Skills
           </h1>
           <div className="flex gap-2">
-            {job.skills?.map((skill, idx) => (
+            {job.about?.required_skills?.map((skill, idx) => (
               <div
                 key={idx}
                 className="text-[12px] text-[#4640DE] bg-gray-100 pl-3 pr-3 pt-1 pb-1 rounded"

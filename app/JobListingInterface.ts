@@ -1,30 +1,29 @@
 interface JobListingInterface {
   id: number;
-  company: string;
   title: string;
+  description: string;
+  responsibilities?: string[];
+  ideal_candidate: {
+    age: string;
+    gender: string;
+    traits: string[];
+  };
+  when_where: string;
   address: {
     street: string;
     city: string;
     state: string;
   };
-  description: string;
-  jobType: string;
-  categories: string[];
-  logoUrl: string;
-  responsibilities?: string[];
-  detail?: [
-    {
-      title: string;
-      description?: string;
-    }
-  ];
   about?: {
-    postedOn: string;
+    posted_on: string;
     deadline: string;
-    startDate: string;
-    endDate: string;
+    location: string;
+    start_date: string;
+    end_date: string;
+    categories: string[];
+    required_skills: string[];
   };
-  eventLocation?: string;
-  skills?: string[];
+  company: string;
+  image: string;
 }
 export default JobListingInterface;
